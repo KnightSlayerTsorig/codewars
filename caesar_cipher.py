@@ -2,9 +2,11 @@ import string
 
 
 def rot13(message):
+
     new_massage = []
     alphabet_lower = list(string.ascii_lowercase)
     alphabet_upper = list(string.ascii_uppercase)
+
     for el in message:
 
         if el in alphabet_lower:
